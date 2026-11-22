@@ -1,0 +1,331 @@
+#1
+# number = int(input("Enter your number: "))
+
+# if number > 0:
+#     print("Positive")
+# elif number < 0:
+#     print("Negative")
+# else:
+#     print("Zero")
+
+# #2
+# number = int(input("Enter a number: "))
+
+# if number == 0:
+#     print("Zero")
+# elif number > 0:
+#     if number % 2 == 0:
+#         print("Positive Even")
+#     else:
+#         print("Positive Odd")
+# else:
+#     if number % 2 == 0:
+#         print("Negative Even")
+#     else:
+#         print("Negative Odd")
+
+# #3
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
+
+# if num1 > num2:
+#     print(num1)
+# elif num2 > num1:
+#     print(num2)
+# else:
+#     print("Both are equal")
+
+
+# #4
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# c = int(input("Enter third number: "))
+
+# if a < b and a < c:
+#   print("smallest" ,a)
+# elif b < a and b < c:
+#     print("smallest" ,b )
+# elif c<a and c<a:
+#     print("smallest", c)
+# else:
+#     print("At least two values are same and smallest!!")
+
+# #5
+
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
+# num3 = int(input("Enter third number: "))
+
+# if num1 >= num2 and num1 >= num3:
+#     print(" largest = num1")
+# elif num2 >= num1 and num2 >= num3:
+#     print("largest = num2")
+# elif num3<num1 and num3<num1  :
+#     print("largest = num3")
+# else:
+#   print("At least two values are same and smallest!!")
+
+#   #6
+# num = int(input("Enter a number: "))
+
+# if num % 5  and num % 11 :
+#     print("Divisible by both 5 and 11")
+# elif num % 5 :
+#     print("Divisible only by 5")
+# elif num % 11 :
+#     print("Divisible only by 11")
+# else:
+#     print("Divisible by neither")
+
+#  #7
+# num = int(input("Enter a number: "))
+
+# if num %3 and num % 7 :
+#     print("Divisible by both 3 and 7")
+# elif num % 3 :
+#     print("Divisible only by 3")
+# elif num % 7 :
+#     print("Divisible only by 7")
+# else:
+#     print("Divisible by neither")
+
+# #8
+# marks = int(input("Enter a marks: "))
+
+# if marks < 0 or marks > 100:
+#     print("Invalid marks")
+# elif marks >= 40:
+#     print("Pass")
+# else:
+#     print("Fail")
+
+# #9
+# marks = float(input("Enter grade marks: "))
+
+# if marks >= 90:
+#     print("Grade: A")
+# elif marks >= 80:
+#     print("Grade: B")
+# elif marks >= 70:
+#     print("Grade: C")
+# elif marks >= 60:
+#     print("Grade: D")
+# elif marks >= 40:
+#     print("Grade: E")
+# else:
+#     print("Fail")
+
+# #10
+# age = int(input("Enter age: "))
+# if age < 0 or age > 120:
+#     print("Invalid age")
+# elif age < 18:
+#     print("Cannot vote")
+# else:
+#     print("Can vote")
+
+# #11
+# year = int(input("Enter a year: "))
+
+# if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+#     print("Leap year")
+# else:
+#     print("Not a leap year")
+
+# #12
+# character=int (input("enter a character"))
+# if "A"<= character <="Z":
+#     print("Uppercase alphabet")
+# elif "a"<= character <="z":
+#     print("Lowercase alphabet")
+# elif "0"<= character <="9":
+#     print("digit")
+# else:
+#     print("special character")    
+
+#13
+# character=input("enter a character:")
+# if character in ("a ,e ,i ,o,u"):
+#     print("vowel")
+# elif "a"<= character <="z" :
+#     print("consonant")
+# else:
+#     print("invalid input")  
+
+# #14
+# cp=float("enter cost price")
+# sp=float("enter selling price")
+# if cp<sp:
+#     print("profit")
+# elif sp<cp:
+#     print("loss")
+# else:
+#     print("no profit and no loss")
+
+
+# #15
+# cp=float("enter cost price")
+# sp=float("enter selling price")
+# if sp>cp:
+#     profit=(sp-cp)/cp*100
+#     print("the profit % is " , profit)
+# elif cp>sp:
+#     loss=(cp-sp)/cp*100
+#     print("the loss % is " , loss)
+# else:
+#     print("no profit n0 loss")
+
+#16
+# unit=int(input("enter a bill units"))
+# if unit<=100:
+#     print(f"total:{unit*5}")
+# elif unit<=200:
+#     first_hundred=100*5
+#     remaining_unit=(unit-100)*7
+#     print(f"total:{first_hundred+remaining_unit}")
+# else:
+#     first_hundred=100*5
+#     next100_unit=100*7
+#     remaining_unit=(unit-200)*10
+#     print(f"total:{first_hundred+next100_unit+remaining_unit}")
+
+
+#17
+# print("1.Add","2.SUB","3.Multiple","4.Div","5.Float division")
+# number=int(input("Enter your number to find result:"))
+# num1=float(input("Enter your number1:"))
+# numb2=float(input("Enter your number2:"))
+# if number==1:
+#     print(num1+numb2)
+# elif number==2:
+#     print(num1-numb2)
+# elif number==3:
+#     print(num1*numb2)
+# elif number==4:
+#     print(num1/numb2)
+# elif number==5:
+#     print(num1//numb2)
+# else:
+#     print("Enter valid number.")
+
+# #18
+# degree=int(input("Enter degree to find:"))
+# if degree<0:
+#     print("Freezing")
+# elif degree<15:
+#     print("Very Cold")
+# elif degree<25:
+#     print("Cold")
+# elif degree<35:
+#     print("Normal")
+# else:
+#     print("Hot")
+
+
+# #19
+# num=int(input("Enter a Number:"))
+# if num<0:
+#     print("Negative")
+# elif num<=10:
+#     print("Number is between 0 and 10.")
+# elif num<=50:
+#     print("Number is between 11 and 50.")
+# elif num<=100:
+#     print("Number is between 51 and 100.")
+# else:
+#     print("Above 100.")
+
+
+# #20
+# a = int(input("Enter first side: "))
+# b = int(input("Enter second side: "))
+# c = int(input("Enter third side: "))
+
+# if a + b > c and a + c > b and b + c > a:
+#     print("Valid triangle")
+# else:
+#     print("Invalid triangle")
+
+
+
+# #21
+# side1=int(input("Side1:"))
+# side2=int(input("Side2:"))
+# side3=int(input("Side3:"))
+
+# if side1==side2==side3:
+#     print("Equailateral")
+# elif a==b==c or a==b!=c:
+#     print("Isosceles")
+# else:
+#     print("Scalene")
+
+
+# #22
+# account_balance=int(input("Enter Account balance:"))
+# withdrawal_amount=int(input("Enter withdrawal balance:"))
+
+# if withdrawal_amount>0:
+#     print("Withdrawal amount greater than 0")
+# elif withdrawal_amount%100==0:
+#     print("Withdrawal amount must be divisible by 100")
+# elif withdrawal_amount!=account_balance:
+#     print("Withdrawal amount cannot be greater than the balance")
+# else:
+#     print("After withdrawal, at least ₹500 must remain.")
+
+
+
+# #23
+# username = input("Enter username: ")
+# password = input("Enter password: ")
+
+# if username != "admin":
+#     print("User not found")
+# elif password != "python123":
+#     print("Wrong password")
+# else:
+#     print("Login successful")
+
+
+
+# #24
+# purchase = float(input("Enter purchase amount: ₹"))
+
+# if purchase < 500:
+#     discount_percent = 0
+# elif purchase < 1000:
+#     discount_percent = 5
+# elif purchase < 2000:
+#     discount_percent = 10
+# elif purchase < 5000:
+#     discount_percent = 15
+# else:
+#     discount_percent = 20
+
+# discount_amount = purchase * discount_percent / 100
+# final_amount = purchase - discount_amount
+
+# print("Original amount: ₹", purchase)
+# print("Discount percentage:", discount_percent, "%")
+# print("Discount amount: ₹", discount_amount)
+# print("Final amount: ₹", final_amount)
+
+
+
+# #25
+# subject1 = float(input("Enter your subject1: "))
+# subject2 = float(input("Enter your subject2: "))
+# subject3 = float(input("Enter your subject3: "))
+
+
+
+
+#1
+text = input("Enter a string: ")
+uppercase_count = 0
+lowercase_count = 0
+digit_count = 0
+space_count = 0
+special_count = 0
+
